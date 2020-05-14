@@ -49,5 +49,8 @@ repositories {
 */
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
+    /* 롬복
+    * 자바개발시 자주쓰는 코드 Getter, Setter, 기본 생성자, toString 등을 어노테이션으로 자동생성 해준다.*/
+    compile('org.projectlombok:lombok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }

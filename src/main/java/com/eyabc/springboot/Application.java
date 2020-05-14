@@ -17,7 +17,6 @@ public class Application {
          스프링부트로 만들어진 Jar 파일 (실행가능한 Java 패키징 파일)로 실행하면 된다.
          스프링부트에서 내장 WAS 사용을 권장하고 있는 이유는 '언제 어디서나 같은 환경에서 스프링 부트를 배포' 할 수 있기 때문이다.
          외장 WAS 를 쓴다면 모든 서버는 WAS의 종류와 버전, 설정을 일치시켜야 한다. 새로운 서버가 추가되면 모든 서버가 같은 WAS 환경을 구축해야 한다.
-
         */
         SpringApplication.run(Application.class, args);
     }
